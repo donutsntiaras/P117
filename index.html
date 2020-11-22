@@ -13,19 +13,36 @@
 
  </head>
 
- <body background="background.png">
+ <body background="background.jpeg">
  <center>
    <h3 class="btn btn-danger heading">Realtime Image Identification</h3>
    <hr>
   <center>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
       Model is trained on
+    <br><br>
+    <div class="btn btn-primary heading_div2">
+      Brother | Sister | Mother | Father
     </div>
-    <br>
-    <div class="btn btn-warning heading_div2">
-      Brother | Sister | Mother | Father 
     </div>
   </center>
+   <br><br>
+  <p class="btn btn-warning result_para_tag">Object:
+    <span id="result_object_name"></span> 
+  </p>
+ 
+  <br><br>
+ 
+  <p class="btn btn-warning result_para_tag">Accuracy
+    <span id="result_object_accuracy"></span>
+  </p>
+ 
+ </center>
+ 
+ <div class="copy_right_footer">
+   Developed by-King Vedant Beriwal
+ </div>
+ 
  </center>
  <script src="main.js"></script>
  </body>

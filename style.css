@@ -12,8 +12,34 @@
     border-radius:20px;
     color:black;
     box-shadow:5px 5px 5px rgb(0, 214, 252) ;
+    font-size: 25px;
 }
 
 .heading_div2{
     font-size: 18px;
 }
+
+canvas{
+    border:5px solid rgb(71, 109, 211);
+    border-radius: 20px;
+    box-shadow:5px 5px 5px rgb(0, 214, 252);
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: wheat;
+    bottom: 0;
+    width: 100%;
+    background-color: sandybrown;
+    line-height: 3;
+    text-align: center;
+}
+
+i{
+    visibility: hidden;
+  }
+  .heading_div:hover i{
+    visibility: visible;
+  }
